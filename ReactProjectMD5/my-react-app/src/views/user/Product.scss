@@ -1,0 +1,65 @@
+.container__list {
+    margin: 50px 100px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: medium;
+
+    .container__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+        height: 500px;
+        text-align: center;
+        background-color: rgba(158, 157, 157, 0.9);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+        img {
+            width: 250px;
+            height: 200px;
+        }   
+
+        span {
+            display: block;
+            background-color: black;
+            margin: 0px 100px;
+            color: white;
+        }
+
+        .item__name {
+            font-weight: bold;
+            margin-top: 20px; /* Giảm margin top */
+        }
+
+        .item__buy {
+            width: 200px;
+        }
+
+        p {
+            margin: 10px 0px; /* Giảm margin cho tất cả các thẻ p bên trong container_item */
+        }
+    }
+}
+.pagination {
+    width: 300px;
+    margin:0 auto; /* Căn giữa theo chiều ngang */
+}
+
+.pagination li {
+    display: inline; /* Hiển thị các phần tử của danh sách trên cùng một dòng */
+    margin: 0 5px; /* Khoảng cách giữa các phần tử */
+}
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #b353f3;
+    color: white;
+  }

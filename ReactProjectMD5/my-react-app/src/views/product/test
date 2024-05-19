@@ -1,0 +1,44 @@
+.container__list {
+    margin: 50px 100px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: medium;
+
+    .container__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    background-color: rgba(145, 141, 141, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .container__item img {
+    width: 250px;
+    height: 200px;
+    }   
+
+    .container__item span {
+    display: block;
+    background-color: black;
+    margin: 10px 100px;
+    color: white;
+    }
+
+    .item__name {
+    font-weight: bold;
+    margin-top: 30px;
+    }
+
+    .item__buy {
+    width: 200px;
+    }
+    
+    p {
+        margin: 5px 0; /* Giảm margin cho tất cả các thẻ p bên trong container_item */
+    }
+}

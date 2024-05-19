@@ -1,0 +1,49 @@
+.container{
+    overflow: auto;
+    position: relative; /* Đảm bảo phần tử con được định vị tương đối với phần tử cha */
+    font-size: medium;
+    color: rgb(30, 255, 0);
+    background-image: url(../../assets/logo/backgroundregister.jpg); /* Đường dẫn đến ảnh nền */
+    background-size: auto 100%; /* Chỉnh kích thước ảnh để nó phủ đầy phần tử */
+    background-position: center; /* Đặt vị trí của ảnh nền */
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 80px;
+    
+    .container__register {
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: auto;
+
+    input {
+        width: calc(100% - 40px);
+        margin: 5px 0 20px 0;
+        padding: 10px;
+        border: 1px solid #834545;
+        border-radius: 5px;
+        box-sizing: border-box;
+        }
+    }
+
+    .title {
+    text-align: center;
+    margin-top: 10px;
+    }
+
+    button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: #0056b3;
+    }
+}
